@@ -1,0 +1,704 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		EC23BFCFC44D9224C054485B54824B8E /* GoogleWebRTC */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 18B664D4DBF22B3F6B271154516833C2 /* Build configuration list for PBXAggregateTarget "GoogleWebRTC" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = GoogleWebRTC;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		013EC5E787E97693BA71B66B1BC77BA0 /* Pods-P2P_SDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A18FBFA72D0237606A965DA453B5364 /* Pods-P2P_SDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		304682124012F216F0187C6901484FEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4089E783404EA1291082C75DC38017FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		65D8172A951B1D6F7B3E46BF655B230A /* Pods-P2P_SDK-P2P_SDKTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2B0D37354087C2DE0204BEC3920537 /* Pods-P2P_SDK-P2P_SDKTests-dummy.m */; };
+		A148D7CBD7535AB1CE3A4AEAE19AF6E4 /* Pods-P2P_SDK-P2P_SDKTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 88ECD61AB003DF4892F5F0CFA9364A4D /* Pods-P2P_SDK-P2P_SDKTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E67B2E2CC928C6F1D5DABA0BC4E45E8F /* Pods-P2P_SDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23BEE572A73422429B2B93F92ACF5877 /* Pods-P2P_SDK-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0718DFF447B5B5CBABDCCE6E61EC2811 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC23BFCFC44D9224C054485B54824B8E;
+			remoteInfo = GoogleWebRTC;
+		};
+		713DF92F80740A20586C4BD36340E19F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC23BFCFC44D9224C054485B54824B8E;
+			remoteInfo = GoogleWebRTC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07A7A0C269903D3530EC5798E642E321 /* Pods-P2P_SDK */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-P2P_SDK"; path = Pods_P2P_SDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A18FBFA72D0237606A965DA453B5364 /* Pods-P2P_SDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-P2P_SDK-umbrella.h"; sourceTree = "<group>"; };
+		0AA9DB6114770E963C680C4B9E112794 /* Pods-P2P_SDK-P2P_SDKTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-P2P_SDK-P2P_SDKTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		23BEE572A73422429B2B93F92ACF5877 /* Pods-P2P_SDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-P2P_SDK-dummy.m"; sourceTree = "<group>"; };
+		2F2B0D37354087C2DE0204BEC3920537 /* Pods-P2P_SDK-P2P_SDKTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-P2P_SDK-P2P_SDKTests-dummy.m"; sourceTree = "<group>"; };
+		3E5CC4BD5D0B8CD2337DFA1873958A01 /* Pods-P2P_SDK-P2P_SDKTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-P2P_SDK-P2P_SDKTests-frameworks.sh"; sourceTree = "<group>"; };
+		54884048F6A29E358BF194F990724EE0 /* Pods-P2P_SDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-P2P_SDK.debug.xcconfig"; sourceTree = "<group>"; };
+		58ACD126FD6699331DA8A3D44B4F564A /* Pods-P2P_SDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-P2P_SDK.release.xcconfig"; sourceTree = "<group>"; };
+		60E89CFC7AE40B698191F1EB622CEE98 /* Pods-P2P_SDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-P2P_SDK.modulemap"; sourceTree = "<group>"; };
+		6AD3EB9FACA8DE8CCC997A80A4D73470 /* Pods-P2P_SDK-P2P_SDKTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-P2P_SDK-P2P_SDKTests.release.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		799DE3F810FF810903B493AF332B3899 /* Pods-P2P_SDK-P2P_SDKTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-P2P_SDK-P2P_SDKTests"; path = Pods_P2P_SDK_P2P_SDKTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79F54B100A275814648470B38476DF64 /* Pods-P2P_SDK-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-P2P_SDK-acknowledgements.markdown"; sourceTree = "<group>"; };
+		88ECD61AB003DF4892F5F0CFA9364A4D /* Pods-P2P_SDK-P2P_SDKTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-P2P_SDK-P2P_SDKTests-umbrella.h"; sourceTree = "<group>"; };
+		9BEE9E9CDA4EED0B3A8C83FCEB91ABCB /* Pods-P2P_SDK-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-P2P_SDK-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E71394FF5A0275A8E5D7C00225F2D85 /* Pods-P2P_SDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-P2P_SDK-Info.plist"; sourceTree = "<group>"; };
+		A5AD8A7E616364C9461DF92674F08DE8 /* WebRTC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebRTC.framework; path = Frameworks/frameworks/WebRTC.framework; sourceTree = "<group>"; };
+		B6DCD2AE59E8BBBF39FF08F891D09D97 /* Pods-P2P_SDK-P2P_SDKTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-P2P_SDK-P2P_SDKTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C4C4F2ECF37818E62172A2E042F24499 /* Pods-P2P_SDK-P2P_SDKTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-P2P_SDK-P2P_SDKTests-Info.plist"; sourceTree = "<group>"; };
+		CB9A69043F2521DF17924825F48CD3F0 /* GoogleWebRTC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleWebRTC.release.xcconfig; sourceTree = "<group>"; };
+		D55B727DD14804600F49A3C27377500A /* Pods-P2P_SDK-P2P_SDKTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-P2P_SDK-P2P_SDKTests.modulemap"; sourceTree = "<group>"; };
+		F1840DCD274320E314620DD7EABA0FE8 /* Pods-P2P_SDK-P2P_SDKTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-P2P_SDK-P2P_SDKTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FD47B112A19AB41B0DCBB73B0C920FFC /* GoogleWebRTC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleWebRTC.debug.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46D05721E2F59195A5CB5102BF103CD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4089E783404EA1291082C75DC38017FD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF558B09C9F79980ECC33B0121A74F3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				304682124012F216F0187C6901484FEF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0404257A5BDD2E8AA8D1139EBDAC2379 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F65AC615D40E8227172F707379DEF27 /* Pods-P2P_SDK */,
+				9142F7BE094DCFF9AEC39C3C8CB94264 /* Pods-P2P_SDK-P2P_SDKTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		63C3AED3B6589013CAF1D996598B7B62 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5AD8A7E616364C9461DF92674F08DE8 /* WebRTC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6882F163872CD4B2AD8131036C45492F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07A7A0C269903D3530EC5798E642E321 /* Pods-P2P_SDK */,
+				799DE3F810FF810903B493AF332B3899 /* Pods-P2P_SDK-P2P_SDKTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9142F7BE094DCFF9AEC39C3C8CB94264 /* Pods-P2P_SDK-P2P_SDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				D55B727DD14804600F49A3C27377500A /* Pods-P2P_SDK-P2P_SDKTests.modulemap */,
+				B6DCD2AE59E8BBBF39FF08F891D09D97 /* Pods-P2P_SDK-P2P_SDKTests-acknowledgements.markdown */,
+				0AA9DB6114770E963C680C4B9E112794 /* Pods-P2P_SDK-P2P_SDKTests-acknowledgements.plist */,
+				2F2B0D37354087C2DE0204BEC3920537 /* Pods-P2P_SDK-P2P_SDKTests-dummy.m */,
+				3E5CC4BD5D0B8CD2337DFA1873958A01 /* Pods-P2P_SDK-P2P_SDKTests-frameworks.sh */,
+				C4C4F2ECF37818E62172A2E042F24499 /* Pods-P2P_SDK-P2P_SDKTests-Info.plist */,
+				88ECD61AB003DF4892F5F0CFA9364A4D /* Pods-P2P_SDK-P2P_SDKTests-umbrella.h */,
+				F1840DCD274320E314620DD7EABA0FE8 /* Pods-P2P_SDK-P2P_SDKTests.debug.xcconfig */,
+				6AD3EB9FACA8DE8CCC997A80A4D73470 /* Pods-P2P_SDK-P2P_SDKTests.release.xcconfig */,
+			);
+			name = "Pods-P2P_SDK-P2P_SDKTests";
+			path = "Target Support Files/Pods-P2P_SDK-P2P_SDKTests";
+			sourceTree = "<group>";
+		};
+		9F65AC615D40E8227172F707379DEF27 /* Pods-P2P_SDK */ = {
+			isa = PBXGroup;
+			children = (
+				60E89CFC7AE40B698191F1EB622CEE98 /* Pods-P2P_SDK.modulemap */,
+				79F54B100A275814648470B38476DF64 /* Pods-P2P_SDK-acknowledgements.markdown */,
+				9BEE9E9CDA4EED0B3A8C83FCEB91ABCB /* Pods-P2P_SDK-acknowledgements.plist */,
+				23BEE572A73422429B2B93F92ACF5877 /* Pods-P2P_SDK-dummy.m */,
+				9E71394FF5A0275A8E5D7C00225F2D85 /* Pods-P2P_SDK-Info.plist */,
+				0A18FBFA72D0237606A965DA453B5364 /* Pods-P2P_SDK-umbrella.h */,
+				54884048F6A29E358BF194F990724EE0 /* Pods-P2P_SDK.debug.xcconfig */,
+				58ACD126FD6699331DA8A3D44B4F564A /* Pods-P2P_SDK.release.xcconfig */,
+			);
+			name = "Pods-P2P_SDK";
+			path = "Target Support Files/Pods-P2P_SDK";
+			sourceTree = "<group>";
+		};
+		BFEE84D1F3F0B859C6F5DEECF6D284F1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD47B112A19AB41B0DCBB73B0C920FFC /* GoogleWebRTC.debug.xcconfig */,
+				CB9A69043F2521DF17924825F48CD3F0 /* GoogleWebRTC.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleWebRTC";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				F151901B15BE15F8C77065BD8E6A4F63 /* Pods */,
+				6882F163872CD4B2AD8131036C45492F /* Products */,
+				0404257A5BDD2E8AA8D1139EBDAC2379 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E5729D088F972A56F3DC6B2BD516F50F /* GoogleWebRTC */ = {
+			isa = PBXGroup;
+			children = (
+				63C3AED3B6589013CAF1D996598B7B62 /* Frameworks */,
+				BFEE84D1F3F0B859C6F5DEECF6D284F1 /* Support Files */,
+			);
+			name = GoogleWebRTC;
+			path = GoogleWebRTC;
+			sourceTree = "<group>";
+		};
+		F151901B15BE15F8C77065BD8E6A4F63 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5729D088F972A56F3DC6B2BD516F50F /* GoogleWebRTC */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A6FBEB2F20D4E386B353209ADECE0992 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A148D7CBD7535AB1CE3A4AEAE19AF6E4 /* Pods-P2P_SDK-P2P_SDKTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9B765E26FC5D8D002A012C06BC61EFF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				013EC5E787E97693BA71B66B1BC77BA0 /* Pods-P2P_SDK-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		67D5FFD8A36FD9F8BF9C32B1429F73EF /* Pods-P2P_SDK-P2P_SDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F3E6D4B2282027FC4A3C641DC18D65C /* Build configuration list for PBXNativeTarget "Pods-P2P_SDK-P2P_SDKTests" */;
+			buildPhases = (
+				A6FBEB2F20D4E386B353209ADECE0992 /* Headers */,
+				CE62CE4CAC182E7B984FF829B5734069 /* Sources */,
+				46D05721E2F59195A5CB5102BF103CD0 /* Frameworks */,
+				B686EBC21E87DB66D34921921FB6CD7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				140D404EB2F23206BF765759FD0B6DB2 /* PBXTargetDependency */,
+			);
+			name = "Pods-P2P_SDK-P2P_SDKTests";
+			productName = Pods_P2P_SDK_P2P_SDKTests;
+			productReference = 799DE3F810FF810903B493AF332B3899 /* Pods-P2P_SDK-P2P_SDKTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		9D2080DF3B87D20FA5730C63302EEBFC /* Pods-P2P_SDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEAFC722C0C77AB7755EFC84BC13221A /* Build configuration list for PBXNativeTarget "Pods-P2P_SDK" */;
+			buildPhases = (
+				E9B765E26FC5D8D002A012C06BC61EFF /* Headers */,
+				2ACAEFB4FCF93A0A8C2A362AD2BEC044 /* Sources */,
+				CF558B09C9F79980ECC33B0121A74F3B /* Frameworks */,
+				272D11FB32A5DFB275381B419435B9CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				078AFB4E980367DFEADF815D309DB07D /* PBXTargetDependency */,
+			);
+			name = "Pods-P2P_SDK";
+			productName = Pods_P2P_SDK;
+			productReference = 07A7A0C269903D3530EC5798E642E321 /* Pods-P2P_SDK */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 6882F163872CD4B2AD8131036C45492F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC23BFCFC44D9224C054485B54824B8E /* GoogleWebRTC */,
+				9D2080DF3B87D20FA5730C63302EEBFC /* Pods-P2P_SDK */,
+				67D5FFD8A36FD9F8BF9C32B1429F73EF /* Pods-P2P_SDK-P2P_SDKTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		272D11FB32A5DFB275381B419435B9CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B686EBC21E87DB66D34921921FB6CD7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2ACAEFB4FCF93A0A8C2A362AD2BEC044 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E67B2E2CC928C6F1D5DABA0BC4E45E8F /* Pods-P2P_SDK-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE62CE4CAC182E7B984FF829B5734069 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65D8172A951B1D6F7B3E46BF655B230A /* Pods-P2P_SDK-P2P_SDKTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		078AFB4E980367DFEADF815D309DB07D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleWebRTC;
+			target = EC23BFCFC44D9224C054485B54824B8E /* GoogleWebRTC */;
+			targetProxy = 0718DFF447B5B5CBABDCCE6E61EC2811 /* PBXContainerItemProxy */;
+		};
+		140D404EB2F23206BF765759FD0B6DB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleWebRTC;
+			target = EC23BFCFC44D9224C054485B54824B8E /* GoogleWebRTC */;
+			targetProxy = 713DF92F80740A20586C4BD36340E19F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3158498A5FBF2F2C68FE7F6DB4FF1FAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD47B112A19AB41B0DCBB73B0C920FFC /* GoogleWebRTC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		446BA1B9A1F1F2F95D04E5F82EB1B0F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		574759379035A64EC0284D81E717C537 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54884048F6A29E358BF194F990724EE0 /* Pods-P2P_SDK.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-P2P_SDK/Pods-P2P_SDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-P2P_SDK/Pods-P2P_SDK.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5C91B8F0976D646B8DD07C150AAD9417 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB9A69043F2521DF17924825F48CD3F0 /* GoogleWebRTC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D47E2EFAC6FAC81A782D9BFD8736F53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		65EC2F27920D12336CEEAF30BCF6919C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1840DCD274320E314620DD7EABA0FE8 /* Pods-P2P_SDK-P2P_SDKTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-P2P_SDK-P2P_SDKTests/Pods-P2P_SDK-P2P_SDKTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-P2P_SDK-P2P_SDKTests/Pods-P2P_SDK-P2P_SDKTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		74A45077B2B7C46FF59A4C5BC500FC5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58ACD126FD6699331DA8A3D44B4F564A /* Pods-P2P_SDK.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-P2P_SDK/Pods-P2P_SDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-P2P_SDK/Pods-P2P_SDK.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		86C1104FF5082FCD8E1BE2A74A8E3A8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AD3EB9FACA8DE8CCC997A80A4D73470 /* Pods-P2P_SDK-P2P_SDKTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-P2P_SDK-P2P_SDKTests/Pods-P2P_SDK-P2P_SDKTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-P2P_SDK-P2P_SDKTests/Pods-P2P_SDK-P2P_SDKTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18B664D4DBF22B3F6B271154516833C2 /* Build configuration list for PBXAggregateTarget "GoogleWebRTC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3158498A5FBF2F2C68FE7F6DB4FF1FAE /* Debug */,
+				5C91B8F0976D646B8DD07C150AAD9417 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				446BA1B9A1F1F2F95D04E5F82EB1B0F4 /* Debug */,
+				5D47E2EFAC6FAC81A782D9BFD8736F53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F3E6D4B2282027FC4A3C641DC18D65C /* Build configuration list for PBXNativeTarget "Pods-P2P_SDK-P2P_SDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65EC2F27920D12336CEEAF30BCF6919C /* Debug */,
+				86C1104FF5082FCD8E1BE2A74A8E3A8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEAFC722C0C77AB7755EFC84BC13221A /* Build configuration list for PBXNativeTarget "Pods-P2P_SDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				574759379035A64EC0284D81E717C537 /* Debug */,
+				74A45077B2B7C46FF59A4C5BC500FC5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

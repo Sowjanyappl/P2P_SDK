@@ -11,6 +11,13 @@
 		1306039F29B9B61700333DC1 /* P2P_SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1306039429B9B61700333DC1 /* P2P_SDK.framework */; };
 		130603A429B9B61700333DC1 /* P2P_SDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130603A329B9B61700333DC1 /* P2P_SDKTests.swift */; };
 		130603A529B9B61700333DC1 /* P2P_SDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 1306039729B9B61700333DC1 /* P2P_SDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		130603B329B9B88800333DC1 /* AVCaptureState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130603AE29B9B88700333DC1 /* AVCaptureState.swift */; };
+		130603B429B9B88800333DC1 /* RTCCapturerSettingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130603AF29B9B88800333DC1 /* RTCCapturerSettingsModel.swift */; };
+		130603B529B9B88800333DC1 /* RTCCapturer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130603B029B9B88800333DC1 /* RTCCapturer.swift */; };
+		130603B629B9B88800333DC1 /* RTCClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130603B129B9B88800333DC1 /* RTCClient.swift */; };
+		130603B729B9B88800333DC1 /* RTCSettingsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130603B229B9B88800333DC1 /* RTCSettingsStore.swift */; };
+		ABC21B03AB19258C05A0D2D2 /* Pods_P2P_SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E52165186DB974E0C44B5E00 /* Pods_P2P_SDK.framework */; };
+		BB027937FFE7F5FB3B4BFB67 /* Pods_P2P_SDK_P2P_SDKTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E51A9D1F2E949BAB848157A3 /* Pods_P2P_SDK_P2P_SDKTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,11 +31,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0144AC1FBD961282FAC5EAC4 /* Pods-P2P_SDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-P2P_SDK.release.xcconfig"; path = "Target Support Files/Pods-P2P_SDK/Pods-P2P_SDK.release.xcconfig"; sourceTree = "<group>"; };
 		1306039429B9B61700333DC1 /* P2P_SDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = P2P_SDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1306039729B9B61700333DC1 /* P2P_SDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = P2P_SDK.h; sourceTree = "<group>"; };
 		1306039829B9B61700333DC1 /* P2P_SDK.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = P2P_SDK.docc; sourceTree = "<group>"; };
 		1306039E29B9B61700333DC1 /* P2P_SDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = P2P_SDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		130603A329B9B61700333DC1 /* P2P_SDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P2P_SDKTests.swift; sourceTree = "<group>"; };
+		130603AE29B9B88700333DC1 /* AVCaptureState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVCaptureState.swift; sourceTree = "<group>"; };
+		130603AF29B9B88800333DC1 /* RTCCapturerSettingsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RTCCapturerSettingsModel.swift; sourceTree = "<group>"; };
+		130603B029B9B88800333DC1 /* RTCCapturer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RTCCapturer.swift; sourceTree = "<group>"; };
+		130603B129B9B88800333DC1 /* RTCClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RTCClient.swift; sourceTree = "<group>"; };
+		130603B229B9B88800333DC1 /* RTCSettingsStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RTCSettingsStore.swift; sourceTree = "<group>"; };
+		20598BF4CFC7F58F218A98AF /* Pods-P2P_SDK-P2P_SDKTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-P2P_SDK-P2P_SDKTests.release.xcconfig"; path = "Target Support Files/Pods-P2P_SDK-P2P_SDKTests/Pods-P2P_SDK-P2P_SDKTests.release.xcconfig"; sourceTree = "<group>"; };
+		BEC4CFCCBDAB7A718B6B1D66 /* Pods-P2P_SDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-P2P_SDK.debug.xcconfig"; path = "Target Support Files/Pods-P2P_SDK/Pods-P2P_SDK.debug.xcconfig"; sourceTree = "<group>"; };
+		E51A9D1F2E949BAB848157A3 /* Pods_P2P_SDK_P2P_SDKTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_P2P_SDK_P2P_SDKTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E52165186DB974E0C44B5E00 /* Pods_P2P_SDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_P2P_SDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC22351B95FEDA2D3F0982DF /* Pods-P2P_SDK-P2P_SDKTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-P2P_SDK-P2P_SDKTests.debug.xcconfig"; path = "Target Support Files/Pods-P2P_SDK-P2P_SDKTests/Pods-P2P_SDK-P2P_SDKTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABC21B03AB19258C05A0D2D2 /* Pods_P2P_SDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +63,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1306039F29B9B61700333DC1 /* P2P_SDK.framework in Frameworks */,
+				BB027937FFE7F5FB3B4BFB67 /* Pods_P2P_SDK_P2P_SDKTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +76,8 @@
 				1306039629B9B61700333DC1 /* P2P_SDK */,
 				130603A229B9B61700333DC1 /* P2P_SDKTests */,
 				1306039529B9B61700333DC1 /* Products */,
+				25F360CD94C49F810BDEEF0F /* Pods */,
+				AC2B0CE951F1869468E9B88C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,6 +94,11 @@
 			isa = PBXGroup;
 			children = (
 				1306039729B9B61700333DC1 /* P2P_SDK.h */,
+				130603AE29B9B88700333DC1 /* AVCaptureState.swift */,
+				130603B029B9B88800333DC1 /* RTCCapturer.swift */,
+				130603AF29B9B88800333DC1 /* RTCCapturerSettingsModel.swift */,
+				130603B129B9B88800333DC1 /* RTCClient.swift */,
+				130603B229B9B88800333DC1 /* RTCSettingsStore.swift */,
 				1306039829B9B61700333DC1 /* P2P_SDK.docc */,
 			);
 			path = P2P_SDK;
@@ -83,6 +110,26 @@
 				130603A329B9B61700333DC1 /* P2P_SDKTests.swift */,
 			);
 			path = P2P_SDKTests;
+			sourceTree = "<group>";
+		};
+		25F360CD94C49F810BDEEF0F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BEC4CFCCBDAB7A718B6B1D66 /* Pods-P2P_SDK.debug.xcconfig */,
+				0144AC1FBD961282FAC5EAC4 /* Pods-P2P_SDK.release.xcconfig */,
+				EC22351B95FEDA2D3F0982DF /* Pods-P2P_SDK-P2P_SDKTests.debug.xcconfig */,
+				20598BF4CFC7F58F218A98AF /* Pods-P2P_SDK-P2P_SDKTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AC2B0CE951F1869468E9B88C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E52165186DB974E0C44B5E00 /* Pods_P2P_SDK.framework */,
+				E51A9D1F2E949BAB848157A3 /* Pods_P2P_SDK_P2P_SDKTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -103,6 +150,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 130603A829B9B61700333DC1 /* Build configuration list for PBXNativeTarget "P2P_SDK" */;
 			buildPhases = (
+				B86845D9D8A867ADA3018D22 /* [CP] Check Pods Manifest.lock */,
 				1306038F29B9B61700333DC1 /* Headers */,
 				1306039029B9B61700333DC1 /* Sources */,
 				1306039129B9B61700333DC1 /* Frameworks */,
@@ -121,9 +169,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 130603AB29B9B61700333DC1 /* Build configuration list for PBXNativeTarget "P2P_SDKTests" */;
 			buildPhases = (
+				1A4DA6294D8AC3683797C3F2 /* [CP] Check Pods Manifest.lock */,
 				1306039A29B9B61700333DC1 /* Sources */,
 				1306039B29B9B61700333DC1 /* Frameworks */,
 				1306039C29B9B61700333DC1 /* Resources */,
+				6EDDAD2B73194408C2A85915 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -189,12 +239,81 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1A4DA6294D8AC3683797C3F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-P2P_SDK-P2P_SDKTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6EDDAD2B73194408C2A85915 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-P2P_SDK-P2P_SDKTests/Pods-P2P_SDK-P2P_SDKTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-P2P_SDK-P2P_SDKTests/Pods-P2P_SDK-P2P_SDKTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-P2P_SDK-P2P_SDKTests/Pods-P2P_SDK-P2P_SDKTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B86845D9D8A867ADA3018D22 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-P2P_SDK-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1306039029B9B61700333DC1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				130603B429B9B88800333DC1 /* RTCCapturerSettingsModel.swift in Sources */,
 				1306039929B9B61700333DC1 /* P2P_SDK.docc in Sources */,
+				130603B729B9B88800333DC1 /* RTCSettingsStore.swift in Sources */,
+				130603B329B9B88800333DC1 /* AVCaptureState.swift in Sources */,
+				130603B529B9B88800333DC1 /* RTCCapturer.swift in Sources */,
+				130603B629B9B88800333DC1 /* RTCClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +458,7 @@
 		};
 		130603A929B9B61700333DC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEC4CFCCBDAB7A718B6B1D66 /* Pods-P2P_SDK.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -367,6 +487,7 @@
 		};
 		130603AA29B9B61700333DC1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0144AC1FBD961282FAC5EAC4 /* Pods-P2P_SDK.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -395,7 +516,9 @@
 		};
 		130603AC29B9B61700333DC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC22351B95FEDA2D3F0982DF /* Pods-P2P_SDK-P2P_SDKTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = NN4FAH5SZT;
@@ -411,7 +534,9 @@
 		};
 		130603AD29B9B61700333DC1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20598BF4CFC7F58F218A98AF /* Pods-P2P_SDK-P2P_SDKTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = NN4FAH5SZT;
